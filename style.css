@@ -16,22 +16,25 @@
     font-family: var(--normalFont);
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     background-color: #000000;
+    color: #FFFFFF;
 
     padding: 50px;
 }
 
 h1 {
     font-variant: small-caps;
-    color: #FFFFFF;
     text-align: center;
     font-size: 10vw;
     font-family: var(--titleFont);
 }
 
 header > p {
-    color: #FFFFFF;
     text-align: center;
     font-size: 14pt;
 
@@ -39,7 +42,7 @@ header > p {
 }
 
 section {
-    font-size: 3.4vw;
+    font-size: 3.5vw;
     line-height: 2em;
 
     padding-left: 20px;
@@ -53,8 +56,9 @@ section {
     background-attachment: fixed;
 
     box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.445);
-}
 
+    text-shadow: 1px 1px 1px black;
+}
 
 #FlowerSection {
     background-image: url(assets/background001.jpg);
@@ -66,7 +70,7 @@ section {
 
 section > p {
     width: fit-content;
-    padding: 40px 20px;
+    padding: 20px 20px;
 
     font-family: var(--textFont);
 
@@ -85,7 +89,7 @@ footer {
 
     color: #FFFFFF;
     text-align: center;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 a {
